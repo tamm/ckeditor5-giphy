@@ -1,0 +1,25 @@
+{
+  "name": "ckeditor5-giphy",
+  "version": "0.1.0",
+  "description": "A POC of integration between CK Editor 5 and the Giphy API.",
+  "main": "src/ckeditor-giphy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamm/ckeditor5-giphy.git"
+  },
+  "author": "github@tamm",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/tamm/ckeditor5-giphy/issues"
+  },
+  "homepage": "https://github.com/tamm/ckeditor5-giphy#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^22.0.0",
+    "@ckeditor/ckeditor5-image": "^22.0.0",
+    "@ckeditor/ckeditor5-ui": "^22.0.0",
+    "sweetalert2": "^10.0.2"
+  }
+}

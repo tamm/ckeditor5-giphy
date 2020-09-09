@@ -1,0 +1,37 @@
+.ckeditor-giphy-modal {
+  padding-top: 4rem;
+}
+
+.ckeditor-giphy-modal .swal2-radio {
+  flex-direction: column;
+}
+
+.ckeditor-giphy-modal .swal2-radio img {
+  max-width: 100%;
+}
+
+.ckeditor-giphy-modal .swal2-radio input {
+  display: none;
+}
+
+.ckeditor-giphy-modal .swal2-radio .swal2-label {
+  line-height: 0;
+  display: block;
+  margin: .5rem;
+  position: relative;
+}
+
+.ckeditor-giphy-modal .swal2-radio input:checked + .swal2-label:after {
+  --border-thickness: .25rem;
+  --border-distance: .2rem;
+  --border-radius: .25rem;
+
+  content: '';
+  position: absolute;
+  top: calc( ( var(--border-thickness) + var(--border-distance) ) * -1 );
+  left: calc( ( var(--border-thickness) + var(--border-distance) ) * -1 );
+  width: calc( ( var(--border-distance) * 2 ) + 100%);
+  height: calc( ( var(--border-distance) * 2 ) + 100%);
+  border: var(--border-thickness) solid green;
+  border-radius: var(--border-radius);
+}
