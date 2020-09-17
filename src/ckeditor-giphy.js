@@ -9,7 +9,7 @@ import imageIcon from './giphy.svg';
 
 const giphyOptionsDefault = {
   apiBase: 'https://api.giphy.com/v1',
-  apiKey: 'lBj9wdWfSYDszxMdstVhL6ODrxDLh8Xr', // https://developers.giphy.com/docs/api#quick-start-guide
+  apiKey: 'no-api-key', // https://developers.giphy.com/docs/api#quick-start-guide
 }
   
 export default class Giphy extends Plugin {
